@@ -8,7 +8,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
-
+/**
+ * 整合JPA,JPA可以省去了查询语句
+ */
 @RestController
 public class NoticeSearchController {
     @Autowired
